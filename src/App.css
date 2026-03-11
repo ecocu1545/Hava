@@ -1,0 +1,370 @@
+/* ============================================
+   HAVA DURUMU UYGULAMASI - STILLER
+   Glassmorphism Tasarım
+   ============================================ */
+
+/* ============================================
+   GLASSMORPHISM EFEKTLERİ
+   ============================================ */
+
+/* Ana Glass Panel */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 8px 32px 0 rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Glass Kart */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Glass Buton */
+.glass-button {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.glass-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Glass Input */
+.glass-input {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.glass-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ============================================
+   HAVA DURUMU İKON ANİMASYONLARI
+   ============================================ */
+
+/* İkon Animasyonu */
+.weather-icon-animated {
+  animation: weatherFloat 3s ease-in-out infinite;
+}
+
+@keyframes weatherFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Güneş Animasyonu */
+.sun-icon {
+  animation: sunRotate 10s linear infinite;
+}
+
+@keyframes sunRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Bulut Animasyonu */
+.cloud-icon {
+  animation: cloudFloat 4s ease-in-out infinite;
+}
+
+@keyframes cloudFloat {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+/* Yağmur Animasyonu */
+.rain-icon {
+  animation: rainDrop 1s ease-in-out infinite;
+}
+
+@keyframes rainDrop {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(3px);
+    opacity: 0.7;
+  }
+}
+
+/* Kar Animasyonu */
+.snow-icon {
+  animation: snowFall 2s ease-in-out infinite;
+}
+
+@keyframes snowFall {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(3px) rotate(10deg);
+  }
+}
+
+/* Yıldırım Animasyonu */
+.thunder-icon {
+  animation: thunderFlash 2s ease-in-out infinite;
+}
+
+@keyframes thunderFlash {
+  0%, 90%, 100% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.3;
+  }
+}
+
+/* ============================================
+   KAYDIRMA ÇUBUĞU STILLERİ
+   ============================================ */
+
+/* Özel Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Yatay Kaydırma Alanı */
+.horizontal-scroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.05);
+  -webkit-overflow-scrolling: touch;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+/* ============================================
+   RESPONSİVE TASARIM
+   ============================================ */
+
+/* Mobil Optimizasyonları */
+@media (max-width: 640px) {
+  .glass-panel {
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .glass-card {
+    padding: 0.75rem;
+  }
+}
+
+/* Tablet Optimizasyonları */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .glass-panel {
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+  }
+}
+
+/* Masaüstü Optimizasyonları */
+@media (min-width: 1025px) {
+  .glass-panel {
+    padding: 2rem;
+    border-radius: 1.5rem;
+  }
+}
+
+/* ============================================
+   EFEKT VE GEÇİŞLER
+   ============================================ */
+
+/* Yumuşak Geçişler */
+.transition-all-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hover Efektleri */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Parlama Efekti */
+.glow-effect {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   YÜKLEME ANİMASYONLARI
+   ============================================ */
+
+/* Pulse Animasyonu */
+.pulse-soft {
+  animation: pulseSoft 2s ease-in-out infinite;
+}
+
+@keyframes pulseSoft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Dalga Animasyonu */
+.wave-animation {
+  animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* ============================================
+   TEMA RENKLERİ
+   ============================================ */
+
+/* Açık Hava Teması */
+.theme-clear {
+  --bg-from: #38bdf8;
+  --bg-via: #3b82f6;
+  --bg-to: #2563eb;
+}
+
+/* Bulutlu Hava Teması */
+.theme-cloudy {
+  --bg-from: #94a3b8;
+  --bg-via: #64748b;
+  --bg-to: #475569;
+}
+
+/* Yağmurlu Hava Teması */
+.theme-rain {
+  --bg-from: #475569;
+  --bg-via: #334155;
+  --bg-to: #1e293b;
+}
+
+/* Karlı Hava Teması */
+.theme-snow {
+  --bg-from: #cbd5e1;
+  --bg-via: #94a3b8;
+  --bg-to: #64748b;
+}
+
+/* Gece Teması */
+.theme-night {
+  --bg-from: #1e1b4b;
+  --bg-via: #312e81;
+  --bg-to: #1e293b;
+}
+
+/* ============================================
+   ERIŞILEBILIRLIK
+   ============================================ */
+
+/* Yüksek Kontrast Modu */
+@media (prefers-contrast: high) {
+  .glass-panel {
+    background: rgba(0, 0, 0, 0.8);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Hareket Azaltma */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================
+   YAZI TİPİ AYARLARI
+   ============================================ */
+
+/* Düzgün Yazı Rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* ============================================
+   SEÇİM RENGİ
+   ============================================ */
+
+::selection {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+::-moz-selection {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
