@@ -49,3 +49,4 @@ log_level = 2
 # (int) Hata durumunda durma
 warn_on_root = 1
 
+android.accept_sdk_license = True
