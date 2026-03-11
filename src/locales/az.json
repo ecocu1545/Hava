@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "Hava Durumu",
+    "loading": "Yüklənir...",
+    "error": "Xəta baş verdi",
+    "retry": "Təkrar yoxla"
+  },
+  "language": {
+    "title": "Dil",
+    "az": "AZ",
+    "tr": "TR",
+    "en": "EN"
+  },
+  "weather": {
+    "current": "Cari Hava",
+    "feelsLike": "Hiss edilən",
+    "humidity": "Rütubət",
+    "wind": "Külək",
+    "pressure": "Təzyiq",
+    "visibility": "Görünürlük",
+    "uvIndex": "UV İndeksi",
+    "cloudiness": "Buludluluq",
+    "sunrise": "Günəş çıxışı",
+    "sunset": "Günəş batışı"
+  },
+  "forecast": {
+    "hourly": "24 Saatlıq Proqnoz",
+    "daily": "7 Günlük Proqnoz",
+    "today": "Bu gün",
+    "tomorrow": "Sabah",
+    "monday": "Bazar ertəsi",
+    "tuesday": "Çərşənbə axşamı",
+    "wednesday": "Çərşənbə",
+    "thursday": "Cümə axşamı",
+    "friday": "Cümə",
+    "saturday": "Şənbə",
+    "sunday": "Bazar"
+  },
+  "conditions": {
+    "clear": "Açıq",
+    "sunny": "Günəşli",
+    "cloudy": "Buludlu",
+    "partlyCloudy": "Parçalı buludlu",
+    "mostlyCloudy": "Çox buludlu",
+    "rain": "Yağışlı",
+    "lightRain": "Yüngül yağış",
+    "heavyRain": "Güclü yağış",
+    "thunderstorm": "Fırtına",
+    "snow": "Qar",
+    "lightSnow": "Yüngül qar",
+    "heavySnow": "Güclü qar",
+    "fog": "Duman",
+    "mist": "Sis",
+    "haze": "Tozlu",
+    "drizzle": "Çiskin",
+    "showers": "Sağanak",
+    "windy": "Küləkli"
+  },
+  "clothing": {
+    "title": "Geyinmə Təvsiyəsi",
+    "veryCold": "Çox soyuq! Palto, şarf və əlcək geyin.",
+    "cold": "Soyuq hava. Qalın geyinməyi unutma!",
+    "cool": "Sərin hava. İncə bir gödəkçə tövsiyə olunur.",
+    "mild": "Mlayim hava. Rahat geyinə bilərsən.",
+    "warm": "İsti hava. Yüngül paltarlar seç.",
+    "hot": "Çox isti! Sərin və rahat geyin.",
+    "veryHot": "Həddindən artıq isti! Su içməyi unutma.",
+    "rain": "Yağış gözlənilir. Şəmsiyə aparmağı unutma!",
+    "snow": "Qar yağır. Qarşıdan gələnə diqqət et!",
+    "wind": "Küləkli hava. Şərf taxmaq faydalı ola bilər."
+  },
+  "location": {
+    "getting": "Konumunuz alınır...",
+    "denied": "Konum icazəsi rədd edildi",
+    "unavailable": "Konum mövcud deyil",
+    "search": "Şəhər axtar...",
+    "searchPlaceholder": "Şəhər adı daxil et..."
+  }
+}

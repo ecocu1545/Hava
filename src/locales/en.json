@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "Weather",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again"
+  },
+  "language": {
+    "title": "Language",
+    "az": "AZ",
+    "tr": "TR",
+    "en": "EN"
+  },
+  "weather": {
+    "current": "Current Weather",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "pressure": "Pressure",
+    "visibility": "Visibility",
+    "uvIndex": "UV Index",
+    "cloudiness": "Cloudiness",
+    "sunrise": "Sunrise",
+    "sunset": "Sunset"
+  },
+  "forecast": {
+    "hourly": "24-Hour Forecast",
+    "daily": "7-Day Forecast",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "conditions": {
+    "clear": "Clear",
+    "sunny": "Sunny",
+    "cloudy": "Cloudy",
+    "partlyCloudy": "Partly cloudy",
+    "mostlyCloudy": "Mostly cloudy",
+    "rain": "Rainy",
+    "lightRain": "Light rain",
+    "heavyRain": "Heavy rain",
+    "thunderstorm": "Thunderstorm",
+    "snow": "Snow",
+    "lightSnow": "Light snow",
+    "heavySnow": "Heavy snow",
+    "fog": "Fog",
+    "mist": "Mist",
+    "haze": "Haze",
+    "drizzle": "Drizzle",
+    "showers": "Showers",
+    "windy": "Windy"
+  },
+  "clothing": {
+    "title": "Clothing Advice",
+    "veryCold": "Very cold! Wear a coat, scarf and gloves.",
+    "cold": "Cold weather. Don't forget to dress warmly!",
+    "cool": "Cool weather. A light jacket is recommended.",
+    "mild": "Mild weather. You can dress comfortably.",
+    "warm": "Warm weather. Choose light clothes.",
+    "hot": "Very hot! Dress cool and comfortable.",
+    "veryHot": "Extremely hot! Don't forget to drink water.",
+    "rain": "Rain expected. Don't forget your umbrella!",
+    "snow": "Snowing. Be careful of slippery surfaces!",
+    "wind": "Windy weather. A scarf might be useful."
+  },
+  "location": {
+    "getting": "Getting your location...",
+    "denied": "Location permission denied",
+    "unavailable": "Location unavailable",
+    "search": "Search city...",
+    "searchPlaceholder": "Enter city name..."
+  }
+}

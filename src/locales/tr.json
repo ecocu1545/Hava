@@ -1,1 +1,79 @@
-
+{
+  "app": {
+    "title": "Hava Durumu",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar dene"
+  },
+  "language": {
+    "title": "Dil",
+    "az": "AZ",
+    "tr": "TR",
+    "en": "EN"
+  },
+  "weather": {
+    "current": "Mevcut Hava",
+    "feelsLike": "Hissedilen",
+    "humidity": "Nem",
+    "wind": "Rüzgar",
+    "pressure": "Basınç",
+    "visibility": "Görüş",
+    "uvIndex": "UV İndeksi",
+    "cloudiness": "Bulutluluk",
+    "sunrise": "Gün doğumu",
+    "sunset": "Gün batımı"
+  },
+  "forecast": {
+    "hourly": "24 Saatlik Tahmin",
+    "daily": "7 Günlük Tahmin",
+    "today": "Bugün",
+    "tomorrow": "Yarın",
+    "monday": "Pazartesi",
+    "tuesday": "Salı",
+    "wednesday": "Çarşamba",
+    "thursday": "Perşembe",
+    "friday": "Cuma",
+    "saturday": "Cumartesi",
+    "sunday": "Pazar"
+  },
+  "conditions": {
+    "clear": "Açık",
+    "sunny": "Güneşli",
+    "cloudy": "Bulutlu",
+    "partlyCloudy": "Parçalı bulutlu",
+    "mostlyCloudy": "Çok bulutlu",
+    "rain": "Yağmurlu",
+    "lightRain": "Hafif yağmur",
+    "heavyRain": "Şiddetli yağmur",
+    "thunderstorm": "Gök gürültülü fırtına",
+    "snow": "Kar",
+    "lightSnow": "Hafif kar",
+    "heavySnow": "Yoğun kar",
+    "fog": "Sis",
+    "mist": "Pus",
+    "haze": "Tozlu",
+    "drizzle": "Çisenti",
+    "showers": "Sağanak",
+    "windy": "Rüzgarlı"
+  },
+  "clothing": {
+    "title": "Giyinme Tavsiyesi",
+    "veryCold": "Çok soğuk! Mont, atkı ve eldiven giy.",
+    "cold": "Soğuk hava. Kalın giyinmeyi unutma!",
+    "cool": "Serin hava. İnce bir mont önerilir.",
+    "mild": "Ilıman hava. Rahat giyinebilirsin.",
+    "warm": "Sıcak hava. Hafif kıyafetler seç.",
+    "hot": "Çok sıcak! Serin ve rahat giyin.",
+    "veryHot": "Aşırı sıcak! Su içmeyi unutma.",
+    "rain": "Yağmur bekleniyor. Şemsiye almayı unutma!",
+    "snow": "Kar yağıyor. Kaygan zeminlere dikkat!",
+    "wind": "Rüzgarlı hava. Atkı takmak faydalı olabilir."
+  },
+  "location": {
+    "getting": "Konumunuz alınıyor...",
+    "denied": "Konum izni reddedildi",
+    "unavailable": "Konum kullanılamıyor",
+    "search": "Şehir ara...",
+    "searchPlaceholder": "Şehir adı girin..."
+  }
+}
